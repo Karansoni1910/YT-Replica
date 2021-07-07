@@ -1,0 +1,49 @@
+.videorow{
+    display:flex;
+    flex: 1;
+    margin-bottom: 30px;
+    width: max-content;
+}
+.videorow > img{
+    object-fit: contain;
+}
+
+.video_text{
+    margin-left: 15px;
+}
+
+.video_text > h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.video_description{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #606060;
+    width: 700px;
+}
+
+.video_headline{
+    font-size: 15px;
+    color: #606060;
+}
+.video_profile{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+}
+.video_profile > h3{
+    margin-left: 10px;
+    color: #5f5f5f;
+    font-weight: normal;
+}
+.avatar{
+    height: 27px !important;
+    width: 27px !important;
+}
+.video_options{
+    color: #8a8a8a;
+}

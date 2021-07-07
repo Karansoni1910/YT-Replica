@@ -1,0 +1,108 @@
+.yt-icon{
+    position: relative;
+    color: #ff0000;
+    object-fit: contain;
+    margin-left: 20px;
+}
+span{
+    position: relative;
+    bottom: 6px;
+    font-size: large;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: white;
+    color: grey;
+}
+
+.header__title{
+    display: inline;
+
+}
+
+.header__icons{
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+}
+
+.search-text{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(179, 179, 179);
+    background-color: rgb(223, 223, 223);
+    color: grey;
+}
+
+.header__search{
+    border: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid rgb(179, 179, 179);
+    border-top: 1px;
+    border-bottom: 2px;
+    border-right: 1px;
+    cursor: pointer;
+}
+
+.header__mic{
+    position: relative;
+    border: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+input{
+    position: inherit;
+    width: 37em;
+    height: 28px;
+    border: 1px grey;
+    border-radius: 0px;
+}
+
+.vc-icon{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.app-icon{
+    padding-right:20px;
+    cursor: pointer;
+}
+.noti-icon{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.acc-icon{
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.header__link{
+    color: rgb(158, 158, 158);
+}
+
+.header__link:hover{
+    color: rgb(68, 68, 68);
+}
+.home__link{
+}
+

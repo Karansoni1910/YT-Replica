@@ -1,0 +1,25 @@
+.channel__row{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 5px;
+
+}
+
+.channel__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.channel__text > p{
+    color: #606060;
+    font-size: small !important;
+}
+
+.channel__avatar{
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+
+

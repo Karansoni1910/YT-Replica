@@ -1,0 +1,15 @@
+.sidebar{
+    flex: 0.18;
+    flex-direction: column;
+    overflow-y: auto;
+    flex-shrink: 0;
+}
+
+.sidebar >hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgrey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+

@@ -1,0 +1,36 @@
+.searchpage{
+    flex: 0.83;
+    background-color: #f9f9f9;
+    padding: 20px 20px;
+}
+
+.search__filter{
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: x-small !important;
+    margin-bottom: 10px;
+}
+
+.search__filter > h2{
+    margin-left: 10px;
+}
+
+.tune-icon{
+    margin-left: 20px;
+}
+
+/* .search__filter > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgrey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} */
+hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgrey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

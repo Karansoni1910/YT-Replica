@@ -1,0 +1,41 @@
+.sidebarrow{
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.sbr-icon{
+    position: relative;
+    color: grey;
+}
+
+.title{
+    position: relative;
+    margin-left: 20px;
+    align-items: center;
+    color: rgb(58, 58, 58);
+    font-weight: 475;
+}
+
+.sidebarrow:hover{
+    background-color: lightgrey;
+}
+
+.sidebarrow:hover > .sbr-icon{
+    color: red;
+}
+.sidebarrow:hover > .title{
+    font-weight: 500;
+}
+
+.sidebarrow.selected{
+    background-color: lightgrey;
+}
+.sidebarrow.selected > .sbr-icon{
+    color: red;
+}
+.sidebarrow.selected > .title{
+    font-weight: 500;
+}
+
